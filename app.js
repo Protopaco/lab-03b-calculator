@@ -13,13 +13,13 @@ calcbutton.addEventListener('click', () => {
     let num2 = Number(input2.value);
 
     console.log(operator.value)
-    if (operator.textContent === '+') {
+    if (operator.value === '+') {
         answer.textContent = num1 + num2;
     } else if (operator.value === '-') {
         answer.textContent = num1 - num2;
     } else if (operator.value === '/') {
         answer.textContent = num1 / num2;
-    } else {
+    } else if (operator.value === '*') {
         answer.textContent = num1 * num2;
     }
 
