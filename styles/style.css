@@ -46,6 +46,7 @@ input{
 
 select{
     width: 50px;
+    border: 1px solid #ffefa0;
 
 
 }
@@ -102,6 +103,7 @@ button, select{
     color: #ac4b1c;
     font-family: 'VT323', monospace;
     font-size: 3em;
+    border: 1px solid #ffefa0;
 }
 
 button:hover{
