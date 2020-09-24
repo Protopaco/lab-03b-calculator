@@ -5,7 +5,6 @@ const operator = document.getElementById('operator');
 const calcbutton = document.getElementById('calc-button');
 const answer = document.getElementById('answer');
 
-//eventListener when user pushes '=' button
 
 function calculate () {
     //creates anwser box
@@ -40,6 +39,12 @@ function calculate () {
     }
 }
 
+//eventListener when user pushes '=' button
+calcbutton.addEventListener('click', () => {
+    calculate();
+})
+
+
 /*
 input.addEventListener("keydown", function(event) {
     if (event.keyCode === 13) {
@@ -50,7 +55,4 @@ input.addEventListener("keydown", function(event) {
 })
 */
 
-calcbutton.addEventListener('click', () => {
-    calculate();
-})
 
