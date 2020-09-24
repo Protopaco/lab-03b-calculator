@@ -44,15 +44,12 @@ calcbutton.addEventListener('click', () => {
     calculate();
 })
 
-
-/*
-input.addEventListener("keydown", function(event) {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-    // Trigger the button element with a click
-    document.getElementById("calc-button").click();
+//eventListener when user pushes 'enter'
+input2.addEventListener("keydown", function(event) {
+    console.log(event.key);
+    
+    if(event.key ==='Enter'){
+        calculate();
     }
 })
-*/
-
 
