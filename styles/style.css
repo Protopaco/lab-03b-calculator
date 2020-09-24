@@ -42,7 +42,7 @@ input{
     color: #ac4b1c;
     background-color: #fca652;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
     border: 1px solid #ffefa0;
 
 }
@@ -66,7 +66,6 @@ select{
 #answer{
     transition: all 2s ease;
     background-color: #f2dc6f;
-
 }
 
 header {
