@@ -9,10 +9,12 @@ const answer = document.getElementById('answer');
 
 // set event listeners to update state and DOM\
 calcbutton.addEventListener('click', () => {
+    answer.style.backgroundColor = '#ffefa0';
+
+    answer.style.backgroundColor = '#ac4b1c';
     let num1 = Number(input1.value);
     let num2 = Number(input2.value);
 
-    console.log(operator.value)
     if (operator.value === '+') {
         answer.textContent = num1 + num2;
     } else if (operator.value === '-') {

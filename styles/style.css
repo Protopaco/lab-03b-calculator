@@ -20,7 +20,6 @@ main {
 }
 
 section {
-    background-color: #AC4B1C;
     min-width: 800px;
     display: flex;
     justify-content: center;
@@ -29,6 +28,10 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+}
+
+.calculator-box{
+    background-color: #ac4b1c;
 }
 
 input{
@@ -61,7 +64,8 @@ select{
 }
 
 #answer{
-    transition: all 1s ease;
+    transition: all 2s ease;
+    background-color: #f2dc6f;
 
 }
 
@@ -132,22 +136,3 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
-    20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-    }
-
-    40% {
-        transform: rotate3d(10, 10, -10, 50deg) scale(1);
-    }
-
-    60% {
-        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
-
-    80% {
-        transform: rotate3d(10, 10, 10, 50deg) scale(1);
-    }
-
-  }
