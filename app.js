@@ -6,7 +6,8 @@ const calcbutton = document.getElementById('calc-button');
 const answer = document.getElementById('answer');
 
 //eventListener when user pushes '=' button
-calcbutton.addEventListener('click', () => {
+
+function calculate () {
     //creates anwser box
     answer.style.backgroundColor = '#ac4b1c';
 
@@ -37,7 +38,19 @@ calcbutton.addEventListener('click', () => {
             answer.textContent = (num1 * num2);
         }
     }
+}
+
+/*
+input.addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("calc-button").click();
+    }
+})
+*/
+
+calcbutton.addEventListener('click', () => {
+    calculate();
 })
 
-
-           

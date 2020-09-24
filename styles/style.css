@@ -44,7 +44,7 @@ input{
     align-items: center;
     padding-left: 20px;
     border: 1px solid #ffefa0;
-
+    outline: #ac4b1c;
 }
 
 select{
