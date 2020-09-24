@@ -5,26 +5,37 @@ const operator = document.getElementById('operator');
 const calcbutton = document.getElementById('calc-button');
 const answer = document.getElementById('answer');
 
-// initialize state
-
-// set event listeners to update state and DOM\
+//eventListener when user pushes '=' button
 calcbutton.addEventListener('click', () => {
-    answer.style.backgroundColor = '#ffefa0';
-
+    //creates anwser box
     answer.style.backgroundColor = '#ac4b1c';
+
     let num1 = Number(input1.value);
     let num2 = Number(input2.value);
 
-    if (operator.value === '+') {
-        answer.textContent = num1 + num2;
-    } else if (operator.value === '-') {
-        answer.textContent = num1 - num2;
-    } else if (operator.value === '/') {
-        answer.textContent = num1 / num2;
-    } else if (operator.value === '*') {
-        answer.textContent = num1 * num2;
-    }
+    if (Number.isNaN(num1) === true){
 
+        window.alert("First number is not actually a number!")
+        input1.value = "";
+
+     } else if (Number.isNaN(num2) === true){ 
+
+        console.log('ERROR')
+        window.alert("Second number is not actually a number!")
+        input2.value = '';
+
+
+    } else {
+        if (operator.value === '+') {
+            answer.textContent = num1 + num2;
+        } else if (operator.value === '-') {
+            answer.textContent = num1 - num2;
+        } else if (operator.value === '/') {
+            answer.textContent = num1 / num2;
+        } else if (operator.value === '*') {
+            answer.textContent = num1 * num2;
+        }
+    }
 })
 
 
