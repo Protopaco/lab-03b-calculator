@@ -57,8 +57,13 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease;
 }
+
+#answer{
+    transition: all 1s ease;
+
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -111,6 +116,8 @@ content {
 p {
     font-size: 6em;
     color: #ac4b1c;
+
+
 }
   
 footer {
