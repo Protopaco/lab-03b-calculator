@@ -1,5 +1,5 @@
-// import functions 
-import { calculate } from "./functions/calc.js";
+//import functions 
+import { calculate } from "./functions/clickHandler.js";
 
 //grab DOM elements
 const input2 = document.getElementById('input2');
