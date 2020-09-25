@@ -1,19 +1,19 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { divide } from "../mathUtils.js";
+import { add, subtract, divide, multiply } from "../mathUtils.js";
 
 const test = QUnit.test;
 
-test('should take two numbers and return first divided by second number', (expect) => {
+test('it should add two numbers together, returns sum', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const num1 = 15;
-    const num2 = 5;
-    const expected = 3;
+    const num1 = 3;
+    const num2 = 2;
+    const expected = 5;
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = divide(num1, num2);
+    const actual = add(num1, num2);
 
     //Expect
     // Make assertions about what is expected versus the actual result

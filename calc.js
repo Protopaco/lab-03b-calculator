@@ -1,5 +1,7 @@
+// import functions 
 import { add, subtract, multiply, divide} from "./mathUtils.js";
 
+//grab DOM elements
 const operator = document.getElementById('operator');
 const answer = document.getElementById('answer');
 const input1 = document.getElementById('input1');

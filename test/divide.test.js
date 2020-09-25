@@ -4,7 +4,7 @@ import { divide } from "../mathUtils.js";
 
 const test = QUnit.test;
 
-test('should take two numbers and return first divided by second number', (expect) => {
+test('it should take two numbers and return first divided by second number', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const num1 = 15;

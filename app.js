@@ -1,6 +1,7 @@
-// import functions and grab DOM elements
+// import functions 
 import { calculate } from "./calc.js";
 
+//grab DOM elements
 const input2 = document.getElementById('input2');
 const calcbutton = document.getElementById('calc-button');
 
