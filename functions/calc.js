@@ -1,5 +1,5 @@
 // import functions 
-import { add, subtract, multiply, divide} from "./functions/mathUtils.js";
+import { add, subtract, multiply, divide} from "./mathUtils.js";
 
 //grab DOM elements
 const operator = document.getElementById('operator');

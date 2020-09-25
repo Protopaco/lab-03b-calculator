@@ -1,5 +1,5 @@
 // import functions 
-import { calculate } from "./calc.js";
+import { calculate } from "./functions/calc.js";
 
 //grab DOM elements
 const input2 = document.getElementById('input2');

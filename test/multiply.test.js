@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { multiply } from "../mathUtils.js";
+import { multiply } from "../functions/mathUtils.js";
 
 const test = QUnit.test;
 
